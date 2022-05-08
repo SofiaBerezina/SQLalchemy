@@ -11,7 +11,6 @@ class User(SqlAlchemyBase):
     id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True, autoincrement=True)
     email = sqlalchemy.Column(sqlalchemy.String, index=True, unique=True, nullable=True)
     password = sqlalchemy.Column(sqlalchemy.String, nullable=True)
-    password_again = sqlalchemy.Column(sqlalchemy.String, nullable=True)
     surname = sqlalchemy.Column(sqlalchemy.String, nullable=True)
     name = sqlalchemy.Column(sqlalchemy.String, nullable=True)
     age = sqlalchemy.Column(sqlalchemy.Integer, nullable=True)
