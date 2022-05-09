@@ -1,0 +1,26 @@
+p {
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+h4 {
+    color: #9DA1AA;
+    margin-left: 20px;
+}
+
+h1 {
+    background-color: #9DA1AA;
+    padding: 20px;
+}
+
+h2 {
+    margin-left: 90px;
+    margin-top: 25px;
+}
+
+.login_form{
+    position: relative;
+    max-width: 50%;
+    left: 25%;
+}
